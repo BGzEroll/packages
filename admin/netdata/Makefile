@@ -63,7 +63,7 @@ CONFIGURE_ARGS += \
 	--disable-plugin-xenstat \
 	--disable-exporting-prometheus-remote-write \
 	--disable-unit-tests \
-	--disable-ml
+	--disable-ml \
 	--disable-cloud
 
 define Build/Configure
